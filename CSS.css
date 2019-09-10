@@ -1,0 +1,165 @@
+	#header {
+		display: flex;
+		justify-content: flex-end;
+		align-content: space-around;
+		text-decoration: none;
+		color: black;
+	}
+	.gmail {
+		padding-top: 5px;
+		padding-left: 5px;
+	}
+	.image {
+		padding-top: 5px;
+		padding-left: 5px;
+	}
+	.carré {
+		padding-top: 0px;
+		padding-left: 5px;
+	}
+	.connexion {
+		padding-top: 0px;
+		padding-left: 15px;
+		margin-right: 10px;
+	}
+body {
+	height: 100%;
+	width: 100%;
+	align-content: space-between;
+}
+
+	#logo {
+		height: 100%;
+		width: 100%;
+		text-align: center;
+		align-content: center;
+	}
+
+	.recherche {
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+	}
+
+	#barre {
+		width: 500px;
+		border-radius: 20px;
+		line-height: 32px;
+	}
+
+	.barrerecherche
+	{ 
+		display: flex;
+		justify-content: center;
+		padding-bottom: 15px;
+		line-height: 32px;
+	}
+	.boutons {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color:grey;
+}
+	#France {
+		display: flex;
+		border: 1px #E4E4E4 solid;
+		background-color: #F2F2F2;
+	}
+	.texteFr {
+		margin-left: 7px;
+	}
+	#bas {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		border: 1px #E4E4E4 solid;
+		background-color: #F2F2F2;
+		margin: 0%;
+		padding-bottom: 0%;
+	}
+	.gauche {
+		display: flex;
+		justify-content: flex-start;
+		align-content: space-around; 
+		margin-left: 7px;
+		margin-right: 1%;
+	}
+	.pub {
+		display: flex;
+		margin-right: 7px;
+	}
+	.Entreprise {
+		display: flex;
+		margin-right: 7px;
+	}
+	.Apropos {
+		display: flex;
+		margin-right: 7px;
+	}
+	.Fonctionnement {
+		display: flex;
+		margin-right: 7px;	
+	}
+	.droite {
+		display: flex;
+		justify-content: flex-end;
+		align-content: space-around;
+		margin-right: 7px;
+		margin-left: 1%;
+	}
+	.info {
+		display: flex;
+		margin-right: 7px;
+	}
+	.Confidentialité {
+		display: flex;
+		margin-right: 7px;
+	}
+	.Conditions {
+		display: flex;
+		margin-right: 7px;
+	}
+	.Paramètres {
+		display: flex;
+		margin-right: 7px;	
+	}
+	a {
+		text-decoration: none;
+		color:#7A7A7A;
+	}
+	* {
+		font-family: arial;
+		font-size: small;
+	}
+	#conteneur {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		min-height: 100vh;
+	}
+	.bouton1 {
+		padding-right: 10px;
+	}
+	#rech {
+		background-color:#F3F3F3;
+		line-height: 32px;
+		color:#343434;
+	}
+	#chance {
+		background-color:#F3F3F3;
+		line-height: 32px;
+		color:#343434;
+	}
+	#co {
+		margin-top: 7px;
+		background-color:#3F76D5;
+		color:white;
+		line-height: 32px;
+		width: 120%;
+		font-style: bold;
+	}
